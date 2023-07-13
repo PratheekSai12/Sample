@@ -1,0 +1,17 @@
+
+  .login-container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  .newUser{
+    background-color:rgb(149, 218, 218);
+    padding: 1%;
+    border-radius: 17%;
+  }
+  .user{
+    font-size: 1.2rem;
+  }

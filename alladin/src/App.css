@@ -1,0 +1,215 @@
+.App {
+  /* text-align: center; */
+  background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/diablo-lake-lanjee-chee.jpg") repeat fixed 100%;
+  height:100%;
+  background-repeat: 'no-repeat';
+  min-height: 761px;
+  background-size: cover;
+  /* background-repeat: 100%; */
+  display: flex;
+  flex-direction: column;
+  font-family: Gilroy Bold;
+}
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url(./font/Gilroy-Font/Gilroy-Bold.ttf) format('truetype');
+} 
+
+.two{
+  
+		color: rgb(0, 0, 0);
+		font-family: Gilroy Bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.mainHeader {
+  /* background: rgb(115, 238, 244); */
+  color: #222;
+  /* color: rgb(209, 65, 65); */
+}
+.fixedTop {
+  /* width: 100%; */
+  /* padding: 12px 18px; */
+  position: fixed;
+  /* top: 0; */
+  /* padding-top: 102px; */
+  /* background: rgb(106, 102, 106); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 335px;
+  flex-direction: column;
+  position: relative;
+  width: 720px;
+  height: 300px;
+  background: #f1f1f1;
+  opacity: 0.9;
+  margin: 100px auto 0;
+  word-break: break-all;
+  font-size: 1.5rem;
+  border: 1px solid rgba(76, 174, 213, 0.274);
+  border-radius: 18px;
+}
+
+.tabs {
+  /* padding: 15px; */
+  text-align: center;
+  width: 30%;
+  height: 20%;
+  font-size: 2rem;
+  border-radius: 100px;
+  background: rgb(66, 123, 244);
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  position: relative;
+  outline: none;
+}
+.tabs1{
+  /* padding: 15px; */
+  text-align: center;
+  float: right;
+  width: 30%;
+  height: 20%;
+  font-size: 2rem;
+  border-radius: 100px;
+  background: rgb(66, 123, 244);
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  position: relative;
+  outline: none;
+}
+.tabs2{
+  text-align: center;
+  width: 30%;
+  height: 14%;
+  font-size: 2rem;
+  border-radius: 100px;
+  background: rgb(66, 123, 244);
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+  
+}
+button {
+  border: none;
+  
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  border-radius: 12px;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.active-content {
+  display: block;
+}
+.sub{
+  float:center;
+  text-align: center;
+}
+.bt{
+  background-color: #247a17;
+  width: 30%;
+  color: #f1f1f1;
+  height: 65px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+.btn{
+  width: 80%;
+  border-radius: 20px;
+}

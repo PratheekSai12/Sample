@@ -1,0 +1,18 @@
+.one{
+    text-align: right;
+    padding-right: 30px;
+}
+.two{
+    /* background-color: rgb(243, 238, 232); */
+    text-align: left;
+    padding-left: 30px;
+    font-size: 3rem;
+}
+.three{
+    text-align: center;
+}
+.custom-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
